@@ -1,0 +1,12 @@
+:root {
+  --background: #0a0a0a;
+  --color-primary: #fff;
+  --color-secundary: #d4af37;
+  --color-black: #000;
+
+  --letra-principal-peso: 700px;
+  --letra-secundaria-peso: 400px;
+  
+  --font-family: 'Roboto', sans-serif;
+}
+
