@@ -1,11 +1,13 @@
 :root {
   --background: #0a0a0a;
-  --color-primary: #fff;
+  --color-primary: #ffffff;
+  --color-primary-hover: #ffffff3b;
   --color-secundary: #d4af37;
   --color-black: #000;
+  --color-black-claro: #080808;
 
-  --letra-principal-peso: 700px;
-  --letra-secundaria-peso: 400px;
+  --letra-principal-peso: 800px;
+  --letra-secundaria-peso: 600px;
   
   --font-family: 'Roboto', sans-serif;
 }

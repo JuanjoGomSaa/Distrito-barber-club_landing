@@ -90,23 +90,116 @@ h1 span {
 
 .navegation__list li:first-child{
   background-color: var(--color-secundary);
-  border: 2px solid var(--color-secundary);
   color: var(--color-black);
-
+  
+  border: 2px solid var(--color-secundary);
+ 
+  transition: all 0.3s ease;
 }
+
+.navegation__list li:first-child:hover{
+  box-shadow: 0 0 5px var(--color-secundary);
+  border: 2px solid var(--color-secundary);
+  color: var(--color-secundary);
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
 
 .navegation__list li:first-child a {
   color: var(--color-black);
-
 }
 
-
 .navegation__list li:nth-child(2) {
-  background-color: rgba(255, 255, 255, 0.342);
+  background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid var(--color-primary);
   color: var(--color-primary);
+  transition: all 0.3s ease;
+}
+
+.navegation__list li:nth-child(2):hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-black);
+  font-weight: bold;
 }
 
 .navegation__list li:nth-child(2) a {
   color: var(--color-primary);
+}
+
+/* Services  */
+
+.main__services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 95%;
+  height: 200vh;
+
+  padding: 30px;
+
+  background-color: var(--color-black-claro);
+
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: var(--letra-principal-peso);
+
+  text-align: center;
+}
+
+.title h2{
+  font-size: 3.0rem;
+   color: white;
+}
+
+.title p {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.466);
+}
+
+.services__cards{
+  display: grid;
+
+  height: auto;
+ 
+  flex-shrink: 1;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: rgb(31, 30, 30);
+  border: 2px solid var(--color-secundary);
+  border-radius: 10px;
+
+  flex-shrink: 1;
+
+  padding: 30px;
+
+
+}
+
+.card h3{
+  color: white;
+  font-size: 2rem;
+}
+
+.card p{
+  color: rgba(255, 255, 255, 0.466);
+}
+
+.card .precio{
+  color: var(--color-secundary);
+  font-size: 2rem;
 }
