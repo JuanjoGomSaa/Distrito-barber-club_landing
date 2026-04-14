@@ -90,23 +90,269 @@ h1 span {
 
 .navegation__list li:first-child{
   background-color: var(--color-secundary);
-  border: 2px solid var(--color-secundary);
   color: var(--color-black);
-
+  
+  border: 2px solid var(--color-secundary);
+ 
+  transition: all 0.3s ease;
 }
+
+.navegation__list li:first-child:hover{
+  box-shadow: 0 0 5px var(--color-secundary);
+  border: 2px solid var(--color-secundary);
+  color: var(--color-secundary);
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
 
 .navegation__list li:first-child a {
   color: var(--color-black);
-
 }
 
-
 .navegation__list li:nth-child(2) {
-  background-color: rgba(255, 255, 255, 0.342);
+  background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid var(--color-primary);
   color: var(--color-primary);
+  transition: all 0.3s ease;
+}
+
+.navegation__list li:nth-child(2):hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-black);
+  font-weight: bold;
 }
 
 .navegation__list li:nth-child(2) a {
   color: var(--color-primary);
+}
+
+/* Services  */
+
+.main__services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 200vh;
+
+
+
+  background-color: var(--color-black-claro);
+
+}
+
+.title {
+  height: 20vh;
+
+  font-family: var(--font-family);
+  font-weight: var(--letra-principal-peso);
+
+  text-align: center;
+}
+
+.title h2{
+  font-size: 3.0rem;
+   color: white;
+}
+
+.title p {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.466);
+}
+
+.services__cards{
+  display: grid;
+
+  height: 60vh;
+ 
+  flex-shrink: 1;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 15em;
+  height: 60%;
+
+  background-color: rgb(31, 30, 30);
+  border: 2px solid var(--color-secundary);
+  border-radius: 10px;
+
+  flex-shrink: 1;
+
+  padding: 30px;
+
+  transition: all 0.3s ease;
+
+}
+
+.card:hover{
+  transform:translateY(-7px);
+}
+
+.card:hover .container__icon {
+  background-color: #d4af3781;
+}
+
+.card h3{
+  color: white;
+  font-size: 2rem;
+}
+
+.card p{
+  color: rgba(255, 255, 255, 0.466);
+}
+
+.card .precio{
+  color: var(--color-secundary);
+  font-size: 2rem;
+}
+
+.icon__card {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 0.1rem;  
+}
+
+.container__icon{
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #d4af3733;
+
+  border-radius: 10px;
+}
+
+
+.services_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 110vh;
+
+    gap: 20px;
+}
+
+.services_img_description {
+  width: 50%;
+  height: 100%;
+}
+
+.img__about{
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.description {
+  width: 40%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.description h2 {
+  font-family: var(--font-family);
+  font-weight: var(--letra-principal-peso);
+  font-size: 3.5rem;
+  color: white;
+}
+
+.description p {
+  font-family: var(--font-family);
+  font-weight: var(--letra-secundaria-peso);
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.466);
+}
+
+
+/* Client Reviews */
+
+.clientes__reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+
+  gap: 20px;
+
+  background-color: black;
+}
+
+.title__clientes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title__clientes h2 {
+  font-family: var(--font-family);
+  font-weight: var(--letra-principal-peso);
+  font-size: 3.5rem;
+  color: white;
+}
+
+.title__clientes p {
+  font-family: var(--font-family);
+  font-weight: var(--letra-secundaria-peso);
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.466);
+}
+
+.reviews__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+
+  place-items: center;
+
+  gap: 10px;
+
+  width: 100%;
+  height: auto;
+}
+
+.contacto{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.img__contacto{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.info__contacto h{
+  color: var(--color-secundary)
 }
