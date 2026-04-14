@@ -12,7 +12,7 @@ Landing page moderna y de alta conversión para una barbería premium, desarroll
 
 ## 🚀 Características
 
-- Diseño **pixel-perfect** basado en Figma  
+- Diseño basado de trabajo realizado en Figma 
 - Layouts profesionales con **CSS Grid y Flexbox**  
 - Experiencia **responsive** en múltiples dispositivos  
 - Efectos visuales con `hover`, `transform` y `transition`  
@@ -34,7 +34,6 @@ Landing page moderna y de alta conversión para una barbería premium, desarroll
 
 Este proyecto fue desarrollado para simular un caso real de trabajo frontend:
 
-- Traducir un diseño de Figma a código  
 - Aplicar buenas prácticas de maquetación  
 - Construir una landing orientada a conversión  
 - Crear un proyecto sólido para portafolio  
