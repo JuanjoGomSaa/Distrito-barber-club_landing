@@ -28,8 +28,8 @@
 
       <div class="header__navegation">
         <ul class="navegation__list">
-          <li><a class="link__navegation" href="#">Book Appointment</a></li>
-          <li><a class="link__navegation bold" href="#">View Services</a></li>
+          <a  href="#"><li class="link__navegation">Book Appointment</li></a>
+          <a  href="#services"><li class="link__navegation bold">View Services</li></a>
         </ul>
       </div>
     </div>
@@ -37,7 +37,7 @@
 
   <main>
 
-    <section class="main__services">
+    <section id="services" class="main__services">
 
       <div class="title">
         <h2 class="services__title">
@@ -115,7 +115,7 @@
 
       <div class="reviews__cards">
         
-        <div class="card">
+        <div class="card section__review__card">
           <div class="contacto">
             <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 1" class="img__contacto">
            
@@ -130,45 +130,123 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card section__review__card">
           <div class="contacto">
             <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 1" class="img__contacto">
            
             <div class="info__contacto">
-              <h3>Marcus J.</h3>
+              <h3>David R.</h3>
               <p>★★★★★</p>            
             </div>
           </div>
 
           <div class="review">
-            <p>"Best cut I've had in years. The attention to detail is unmatched."</p>
+            <p>"The VIP experience is worth every penny. Pure luxury."</p>
           </div>
         </div>
 
-        <div class="card">
+        <div class="card section__review__card">
           <div class="contacto">
             <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 1" class="img__contacto">
            
             <div class="info__contacto">
-              <h3>Marcus J.</h3>
+              <h3>James T.</h3>
               <p>★★★★★</p>            
             </div>
           </div>
 
           <div class="review">
-            <p>"Best cut I've had in years. The attention to detail is unmatched."</p>
+            <p>"Finally found a barber who understands style. Won't go anywhere else."</p>
           </div>
         </div>
       </div>
 
+    </section>
 
+    <section class="our__work">
+      <div class="title__clientes">
+        <h2><strong>Our Work</strong></h2>
+        <p>Precision in every detail.</p>
+      </div>
+
+      <div class="our__work__photos">
+        <div class="container__photo">
+          <img src="https://images.unsplash.com/photo-1643899552228-e63b8bfd02c7?w=800&q=80" class="photo" alt="">
+        </div>
+
+        <div class="container__photo">
+          <img src="https://images.unsplash.com/photo-1594910344569-a542a5f4bdff?w=800&q=80" class="photo" alt="">
+        </div>
+
+        <div class="container__photo">
+          <img src="https://images.unsplash.com/photo-1643899552590-e654ceb6caa5?w=800&q=80" class="photo" alt="">
+        </div>
+
+        <div class="container__photo">
+          <img src="https://images.unsplash.com/photo-1643899552489-7ddc0a0418a1?w=800&q=80" class="photo" alt="">
+        </div>
+
+        <div class="container__photo">
+          <img src="https://images.unsplash.com/photo-1642504640216-a2a8cce892e6?w=800&q=80" class="photo" alt="">
+        </div>
+
+        <div class="container__photo">
+          <img src="https://images.unsplash.com/photo-1695662917617-a1bfc0e2fbed?w=800&q=80" class="photo" alt="">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="question">
+      <div class=" question__title">
+        <h2 class="question__title">
+          <strong>
+           Ready for your next look?
+          </strong>
+        </h2>
+        <p>Book your appointment today and experience the difference.</p>
+      </div>
+
+     
+      <a class="book__question" href="#"><strong>Book Appointment</strong></a>
+             
 
     </section>
 
   </main>
 
   <footer>
+    <div class="container__footer">
+      <div class="secundary__container">
+        <div class="secundary__container__information">
+          <h4 id="premium__cuts"><strong>Premium Cuts</strong></h4>
+          <p>Elevating men's grooming since 2014.</p>
+        </div>
 
+        <div class="secundary__container__information">
+          <h4><strong>Contact</strong></h4>
+          <p class="information"><img src="./assets/svg/geo-alt.svg" alt="Location"> 123 Style Avenue, NY 10001</p>
+          <p class="information"><img src="./assets/svg/telephone.svg" alt="Telephone"> (555) 123-4567</p>
+          <p class="information"><img src="./assets/svg/envelope.svg" alt="Mail"> hello@premiumcuts.com</p>
+        </div>
+
+        <div class="secundary__container__information">
+          <h4><strong>Hours</strong></h4>
+          <p>Monday - Friday: 9AM - 8PM</p>
+          <p>Saturday: 10AM - 6PM</p>
+          <p>Sunday: 11AM - 5PM</p>
+        </div>
+      </div>
+
+      <div class="copy__container">
+        <p>2026 Premium Cuts. All rights reserved.</p>
+        <div class="social__icon">
+          <img src="./assets/svg/instagram.svg" alt="">
+          <img src="./assets/svg/whatsapp.svg" alt="">
+          <img src="./assets/svg/twitter-x.svg" alt="">
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
