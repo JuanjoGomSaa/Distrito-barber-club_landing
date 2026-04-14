@@ -132,19 +132,21 @@ h1 span {
 .main__services {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: center;
 
-  width: 95%;
+  width: 100%;
   height: 200vh;
 
-  padding: 30px;
+
 
   background-color: var(--color-black-claro);
 
 }
 
 .title {
+  height: 20vh;
+
   font-family: var(--font-family);
   font-weight: var(--letra-principal-peso);
 
@@ -164,7 +166,7 @@ h1 span {
 .services__cards{
   display: grid;
 
-  height: auto;
+  height: 60vh;
  
   flex-shrink: 1;
 
@@ -179,6 +181,9 @@ h1 span {
   flex-direction: column;
   justify-content: space-between;
 
+  width: 15em;
+  height: 60%;
+
   background-color: rgb(31, 30, 30);
   border: 2px solid var(--color-secundary);
   border-radius: 10px;
@@ -187,7 +192,16 @@ h1 span {
 
   padding: 30px;
 
+  transition: all 0.3s ease;
 
+}
+
+.card:hover{
+  transform:translateY(-7px);
+}
+
+.card:hover .container__icon {
+  background-color: #d4af3781;
 }
 
 .card h3{
@@ -202,4 +216,143 @@ h1 span {
 .card .precio{
   color: var(--color-secundary);
   font-size: 2rem;
+}
+
+.icon__card {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 0.1rem;  
+}
+
+.container__icon{
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #d4af3733;
+
+  border-radius: 10px;
+}
+
+
+.services_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 110vh;
+
+    gap: 20px;
+}
+
+.services_img_description {
+  width: 50%;
+  height: 100%;
+}
+
+.img__about{
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.description {
+  width: 40%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.description h2 {
+  font-family: var(--font-family);
+  font-weight: var(--letra-principal-peso);
+  font-size: 3.5rem;
+  color: white;
+}
+
+.description p {
+  font-family: var(--font-family);
+  font-weight: var(--letra-secundaria-peso);
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.466);
+}
+
+
+/* Client Reviews */
+
+.clientes__reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+
+  gap: 20px;
+
+  background-color: black;
+}
+
+.title__clientes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title__clientes h2 {
+  font-family: var(--font-family);
+  font-weight: var(--letra-principal-peso);
+  font-size: 3.5rem;
+  color: white;
+}
+
+.title__clientes p {
+  font-family: var(--font-family);
+  font-weight: var(--letra-secundaria-peso);
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.466);
+}
+
+.reviews__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+
+  place-items: center;
+
+  gap: 10px;
+
+  width: 100%;
+  height: auto;
+}
+
+.contacto{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.img__contacto{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.info__contacto h{
+  color: var(--color-secundary)
 }
