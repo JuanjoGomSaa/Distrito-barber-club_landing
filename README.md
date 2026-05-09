@@ -1,4 +1,4 @@
-## 📌 Barber Club Landing Page
+## Barber Club Landing Page
 
 Landing page moderna y de alta conversión para una barbería premium, desarrollada a partir de un diseño en Figma y llevada a producción con un enfoque en maquetación profesional y experiencia de usuario.
 
@@ -10,7 +10,7 @@ Landing page moderna y de alta conversión para una barbería premium, desarroll
 
 ---
 
-## 🚀 Características
+##  Características
 
 - Diseño basado de trabajo realizado en Figma 
 - Layouts profesionales con **CSS Grid y Flexbox**  
@@ -21,7 +21,7 @@ Landing page moderna y de alta conversión para una barbería premium, desarroll
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - HTML5  
 - CSS3  
@@ -30,7 +30,7 @@ Landing page moderna y de alta conversión para una barbería premium, desarroll
 
 ---
 
-## 🎯 Objetivo del proyecto
+##  Objetivo del proyecto
 
 Este proyecto fue desarrollado para simular un caso real de trabajo frontend:
 
@@ -40,14 +40,14 @@ Este proyecto fue desarrollado para simular un caso real de trabajo frontend:
 
 ---
 
-## 📷 Preview
+##  Preview
 
 <img width="1883" height="968" alt="image" src="https://github.com/user-attachments/assets/f9235d35-99bc-413d-bc09-e19dbd50090e" />
 
 
 ---
 
-## 📈 Lo que aprendí
+##  Lo que aprendí
 
 - Interpretación y ejecución de diseños desde Figma  
 - Uso avanzado de **Grid y Flexbox** en layouts reales  
